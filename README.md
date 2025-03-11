@@ -4,6 +4,7 @@
 This project focuses on detecting fake news using machine learning models. We preprocess the dataset, apply TF-IDF vectorization on the text column, and train multiple classification models. The best-performing model is fine-tuned using RandomizedSearchCV.
 
 ## Dataset
+https://www.kaggle.com/datasets/bhavikjikadara/fake-news-detection?select=true.csv
 - The dataset contains news articles labeled as **Fake** or **Real**.
 - Only the **text** column is used for feature extraction.
 - Labels are mapped as:
@@ -42,7 +43,6 @@ We trained the following classifiers to compare performance:
 
 ## Installation & Usage
 ### Requirements
-Kaggle Dataset link: https://www.kaggle.com/datasets/bhavikjikadara/fake-news-detection?select=true.csv
 ```bash
 pip install numpy pandas scikit-learn
 ```
